@@ -3,6 +3,9 @@
 # Mac OSX
 .DS_Store
 
+# Pycharm
+.idea
+
 # C extensions
 *.so
 

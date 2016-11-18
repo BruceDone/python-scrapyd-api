@@ -9,6 +9,7 @@ LIST_PROJECTS_ENDPOINT = 'list_projects'
 LIST_SPIDERS_ENDPOINT = 'list_spiders'
 LIST_VERSIONS_ENDPOINT = 'list_versions'
 SCHEDULE_ENDPOINT = 'schedule'
+DAEMONSTATUS_ENDPOINT = 'daemonstatus'
 
 DEFAULT_ENDPOINTS = {
     ADD_VERSION_ENDPOINT: '/addversion.json',
@@ -20,6 +21,7 @@ DEFAULT_ENDPOINTS = {
     LIST_SPIDERS_ENDPOINT: '/listspiders.json',
     LIST_VERSIONS_ENDPOINT: '/listversions.json',
     SCHEDULE_ENDPOINT: '/schedule.json',
+    DAEMONSTATUS_ENDPOINT:'daemonstatus.json',
 }
 
 FINISHED = 'finished'

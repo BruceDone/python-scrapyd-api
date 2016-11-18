@@ -10,4 +10,4 @@ Initial Work
 Contributors
 ------------
 
-Soon..
+* Bruce Done <nicefish66@gmail.com>

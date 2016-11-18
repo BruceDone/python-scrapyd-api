@@ -56,6 +56,15 @@ Please refer to the full documentation_ for more detailed usage but to get you s
 
 .. _documentation: http://python-scrapyd-api.rtfd.org
 
+***Show daemonstatus of server***
+
+.. code:: python
+
+    >>> scrapyd.daemonstatus()
+    # Returns the number of current status (running, pending, finish).
+    {'pending':3,'running':0,'finish':10}
+
+
 **Add a project** egg as a new version:
 
 .. code:: python

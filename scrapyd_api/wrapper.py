@@ -181,3 +181,13 @@ class ScrapydAPI(object):
             data['setting'] = setting_params
         json = self.client.post(url, data=data)
         return json['jobid']
+
+    def daemonstatus(self):
+        """
+        Daemonstatus is api try to list the current status of the server ,like
+        pending ,running ,finished
+        :return:
+        """
+        url = self._build_url(constants.DAEMONSTATUS_ENDPOINT)
+        json = self.client.get(url)
+        return json
