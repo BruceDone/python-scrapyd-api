@@ -16,6 +16,11 @@ class ScrapydError(Exception):
     def __repr__(self):
         return '{0}("{1}")'.format(self.__class__.__name__, self.detail)
 
+class ScrapydTimeOut(Exception):
+    """
+    The server will timeout 
+    """
+    pass
 
 class ScrapydResponseError(ScrapydError):
 
